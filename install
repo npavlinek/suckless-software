@@ -1,0 +1,26 @@
+#!/usr/bin/env sh
+
+set -x
+
+SETUP() {
+    cd $1
+    make maintainer-clean 2>/dev/null
+    autoreconf -i
+}
+
+FINISH() {
+    make install-strip
+    cd ..
+}
+
+SETUP dwm-6.2
+./configure --prefix=$HOME/.local CFLAGS='-O2 -std=c99'
+FINISH
+
+SETUP st-0.8.4
+./configure --prefix=$HOME/.local CFLAGS='-O2 -std=c99'
+FINISH
+
+SETUP dmenu-5.0
+./configure --prefix=$HOME/.local CFLAGS='-O2 -std=c99'
+FINISH
