@@ -1,7 +1,7 @@
 AC_PREREQ([2.71])
-AC_INIT([dwm], [6.2])
+AC_INIT([st], [0.8.4])
 AM_INIT_AUTOMAKE([foreign])
-AC_CONFIG_SRCDIR([dwm.c])
+AC_CONFIG_SRCDIR([st.c])
 
 AC_PROG_CC
 AC_PROG_INSTALL

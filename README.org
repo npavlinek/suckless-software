@@ -1,0 +1,11 @@
+* README
+
+** About
+
+   This is a collection of suckless tools patched according to my personal
+   preference and using Autotools for building instead of hand-written
+   Makefiles.
+
+** License
+
+   Each program has a LICENSE file in its subdirectory.
