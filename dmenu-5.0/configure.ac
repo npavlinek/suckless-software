@@ -1,4 +1,4 @@
-AC_PREREQ([2.71])
+AC_PREREQ([2.69])
 AC_INIT([dmenu], [5.0])
 AM_INIT_AUTOMAKE([foreign])
 AC_CONFIG_SRCDIR([dmenu.c])

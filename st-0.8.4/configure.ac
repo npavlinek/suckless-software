@@ -1,4 +1,4 @@
-AC_PREREQ([2.71])
+AC_PREREQ([2.69])
 AC_INIT([st], [0.8.4])
 AM_INIT_AUTOMAKE([foreign])
 AC_CONFIG_SRCDIR([st.c])
